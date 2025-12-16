@@ -1,0 +1,2 @@
+total_customers,churn_yes_count,churn_percentage,avg_monthly_by_contract,tenure_group_counts,internet_service_distribution,churn_by_monthly_charge_segment
+1000,255,25.5,"{'Month-to-month': 67.31, 'One year': 68.18, 'Two year': 63.12}","{'New': 320, 'Regular': 268, 'Champion': 210, 'Loyal': 202}","{'Fiber optic': 468, 'DSL': 328, 'No': 204}","{'High': 33.02, 'Low': 10.05, 'Medium': 22.73}"
