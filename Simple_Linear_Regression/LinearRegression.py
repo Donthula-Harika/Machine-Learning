@@ -114,5 +114,13 @@ bill = st.slider(
 )
 
 tip = model.predict(scaler.transform([[bill]]))[0]
-st.markdown(f'<div class = "prediction_box"> Predicted Tip: {tip:.2f} </div>',unsafe_allow_html=True)
+
 st.markdown('</div>',unsafe_allow_html=True)
+
+
+st.markdown(f"""
+<div class="prediction-hero">
+  <div class="label">Predicted Tip</div>
+  <div class="value">₹ {tip:.2f}</div>
+</div>
+""", unsafe_allow_html=True)

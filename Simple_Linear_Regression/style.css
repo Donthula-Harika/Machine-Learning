@@ -61,3 +61,30 @@ div[data-testid = "metric-container"]{
     color: #000;
 
 }
+
+
+
+
+
+
+.prediction-hero {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #9463a1, #a4587c);
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.prediction-hero .label {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.prediction-hero .value {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
