@@ -2,3 +2,5 @@
 .env
 *.env
 ELT_Pipelines/**/.env
+
+ignored_files/
