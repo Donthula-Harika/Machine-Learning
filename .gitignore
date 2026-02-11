@@ -4,3 +4,11 @@
 ELT_Pipelines/**/.env
 
 ignored_files/
+
+svm/
+SupportVectorMachine/
+Supervised_Learning/Stacking_Ensemble/try.py
+
+
+Unsupervised_Learning/Clustering/new.py
+Supervised_Learning/Classification/Random_Forest/creditcard.csv
