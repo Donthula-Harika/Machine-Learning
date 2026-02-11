@@ -4,3 +4,7 @@
 ELT_Pipelines/**/.env
 
 ignored_files/
+
+svm/
+SupportVectorMachine/
+Supervised_Learning/Stacking_Ensemble/try.py
