@@ -13,7 +13,7 @@ st.caption("Behavior-based clustering for smarter business decisions")
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("./Wholesale customers data.csv")
+    return pd.read_csv("Wholesale customers data.csv")
 
 df = load_data()
 
