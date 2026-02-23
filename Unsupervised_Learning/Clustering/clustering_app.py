@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+import os
 
 # ---------------- CONFIG ----------------
 st.set_page_config(page_title="Customer Segmentation", layout="wide")
@@ -12,8 +13,12 @@ st.caption("Behavior-based clustering for smarter business decisions")
 
 # ---------------- LOAD DATA ----------------
 @st.cache_data
+
+@st.cache_data
 def load_data():
-    return pd.read_csv("Wholesale customers data.csv")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(base_dir, "Wholesale customers data.csv")
+    return pd.read_csv(file_path)
 
 df = load_data()
 
